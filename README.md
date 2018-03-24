@@ -13,3 +13,5 @@ python -m ipykernel install --user --name detect_driver_behavior --display-name 
   474  source activate dog-project
   475  conda install --channel https://conda.anaconda.org/menpo opencv3
   476  KERAS_BACKEND=tensorflow python -c "from keras import backend"
+  
+  jupyter notebook detect_driver_behavior.ipynb
